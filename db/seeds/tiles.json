@@ -1,0 +1,19 @@
+[
+  { "id": "A3_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "A7_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "A13_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "B2_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "B14_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "E1_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "F14_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "G1_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "H6_initial", "remaining_quantity": 0, "color": "yellow", "letters": "OO", "dits": 0, "city": true },
+  { "id": "H14_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "I9_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 1, "city": true },
+  { "id": "J4_initial", "remaining_quantity": 0, "color": "yellow", "letters": "OO", "dits": 0, "city": true },
+  { "id": "K1_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 1, "city": true },
+  { "id": "K7_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "L2_static", "remaining_quantity": 0, "color": "phase", "letters": null, "dits": 0, "city": true },
+  { "id": "X1", "remaining_quantity": 1, "color": "yellow", "letters": "DC", "dits": 0, "city": true },
+  { "id": "9", "remaining_quantity": 1000, "color": "yellow", "letters": null, "dits": 0, "city": true }
+]

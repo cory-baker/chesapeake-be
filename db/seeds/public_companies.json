@@ -1,0 +1,10 @@
+[
+  { "id": "B&O", "name": "Baltimore & Ohio Railroad", "stockPrice": null },
+  { "id": "C&O", "name": "Chesapeake & Ohio Railroad", "stockPrice": null },
+  { "id": "N&W", "name": "Norfolk & Western Railroad", "stockPrice": null },
+  { "id": "PLE", "name": "Pittsburgh & Lake Erie Railroad", "stockPrice": null },
+  { "id": "PRR", "name": "Pennsylvania Railroad", "stockPrice": null },
+  { "id": "SRR", "name": "Strasburg Railroad", "stockPrice": null },
+  { "id": "LVR", "name": "Lehigh Valley Railroad", "stockPrice": null },
+  { "id": "C&A", "name": "Camden & Amboy Railroad", "stockPrice": null }
+]

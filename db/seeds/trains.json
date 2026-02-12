@@ -1,0 +1,8 @@
+[
+  { "id": "2", "cost": 80, "quanity": 7, "rusts": null, "upgrade_cost": 0, "stops": 2 },
+  { "id": "3", "cost": 180, "quanity": 6, "rusts": null, "upgrade_cost": 0, "stops": 3 },
+  { "id": "4", "cost": 300, "quanity": 5, "rusts": 2, "upgrade_cost": 0, "stops": 4 },
+  { "id": "5", "cost": 500, "quanity": 3, "rusts": null, "upgrade_cost": 0, "stops": 5 },
+  { "id": "6", "cost": 630, "quanity": 2, "rusts": 3, "upgrade_cost": 0, "stops": 6 },
+  { "id": "D", "cost": 900, "quanity": -1, "rusts": 4, "upgrade_cost": 700, "stops": 1000 }
+]

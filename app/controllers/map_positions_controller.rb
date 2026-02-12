@@ -1,5 +1,5 @@
 class MapPositionsController < ApplicationController
   def index
-    render json: MapPosition.all
+    render json: MapHex.all
   end
 end
