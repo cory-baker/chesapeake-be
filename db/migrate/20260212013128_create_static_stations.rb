@@ -3,7 +3,7 @@ class CreateStaticStations < ActiveRecord::Migration[8.0]
     create_table :static_stations do |t|
       t.string :company_id, null: false
       t.integer :price, null: false
-      t.string :hex_id, null: false
+      t.string :hex_id
       t.string :direction
     end
     add_foreign_key :static_stations, :static_public_companies, column: :company_id, primary_key: "id"

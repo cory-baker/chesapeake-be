@@ -40,7 +40,7 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_022053) do
   create_table "static_stations", force: :cascade do |t|
     t.string "company_id", null: false
     t.integer "price", null: false
-    t.string "hex_id", null: false
+    t.string "hex_id"
     t.string "direction"
   end
 
@@ -66,10 +66,6 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_022053) do
     t.integer "rusts"
     t.integer "upgrade_cost", null: false
     t.integer "stops", null: false
-  end
-
-  create_table "tile_colors", force: :cascade do |t|
-    t.enum "color", null: false, enum_type: "tile_color"
   end
 
   add_foreign_key "static_map_hexes", "static_tiles", column: "tile_id"

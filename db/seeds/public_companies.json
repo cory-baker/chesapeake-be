@@ -1,10 +1,10 @@
 [
-  { "id": "B&O", "name": "Baltimore & Ohio Railroad", "stockPrice": null },
-  { "id": "C&O", "name": "Chesapeake & Ohio Railroad", "stockPrice": null },
-  { "id": "N&W", "name": "Norfolk & Western Railroad", "stockPrice": null },
-  { "id": "PLE", "name": "Pittsburgh & Lake Erie Railroad", "stockPrice": null },
-  { "id": "PRR", "name": "Pennsylvania Railroad", "stockPrice": null },
-  { "id": "SRR", "name": "Strasburg Railroad", "stockPrice": null },
-  { "id": "LVR", "name": "Lehigh Valley Railroad", "stockPrice": null },
-  { "id": "C&A", "name": "Camden & Amboy Railroad", "stockPrice": null }
+  { "id": "B&O", "name": "Baltimore & Ohio Railroad", "stock_price": null },
+  { "id": "C&O", "name": "Chesapeake & Ohio Railroad", "stock_price": null },
+  { "id": "N&W", "name": "Norfolk & Western Railroad", "stock_price": null },
+  { "id": "PLE", "name": "Pittsburgh & Lake Erie Railroad", "stock_price": null },
+  { "id": "PRR", "name": "Pennsylvania Railroad", "stock_price": null },
+  { "id": "SRR", "name": "Strasburg Railroad", "stock_price": null },
+  { "id": "LVR", "name": "Lehigh Valley Railroad", "stock_price": null },
+  { "id": "C&A", "name": "Camden & Amboy Railroad", "stock_price": null }
 ]
