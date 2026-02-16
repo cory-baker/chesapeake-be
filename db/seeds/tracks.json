@@ -27,5 +27,19 @@
   { "tile_id": "X1", "from": "S", "to": "NE", "income": 30 },
   { "tile_id": "X1", "from": "NE", "to": "S", "income": 30 },
   { "tile_id": "9", "from": "S", "to": "N", "income": 0 },
-  { "tile_id": "9", "from": "N", "to": "S", "income": 0 }
+  { "tile_id": "9", "from": "N", "to": "S", "income": 0 },
+  { "tile_id": "1", "from": "SW", "to": "N", "income": 10 },
+  { "tile_id": "1", "from": "N", "to": "SW", "income": 10 },
+  { "tile_id": "1", "from": "S", "to": "NE", "income": 10 },
+  { "tile_id": "1", "from": "NE", "to": "S", "income": 10 },
+  { "tile_id": "X2", "from": "NE", "to": "SE", "income": 40 },
+  { "tile_id": "X2", "from": "NE", "to": "S", "income": 40 },
+  { "tile_id": "X2", "from": "NE", "to": "SW", "income": 40 },
+  { "tile_id": "X2", "from": "NE", "to": "NW", "income": 40 },
+  { "tile_id": "X2", "from": "SE", "to": "NE", "income": 40 },
+  { "tile_id": "X2", "from": "SE", "to": "S", "income": 40 },
+  { "tile_id": "X2", "from": "SE", "to": "SW", "income": 40 },
+  { "tile_id": "X2", "from": "SE", "to": "NW", "income": 40 },
+  { "tile_id": "23", "from": "S", "to": "N", "income": 0 },
+  { "tile_id": "23", "from": "S", "to": "NE", "income": 0 }
 ]
