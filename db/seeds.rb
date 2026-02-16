@@ -2,17 +2,23 @@ require 'json'
 
 public_companies = JSON.parse(File.read(Rails.root.join('db/seeds/public_companies.json')), symbolize_names: true)
 public_companies.each do |attrs|
-  StaticPublicCompany.find_or_create_by!(attrs)
+  StaticPublicCompany.find_or_create_by!(id: attrs[:id]) do |company|
+    company.assign_attributes(attrs)
+  end
 end
 
 tiles = JSON.parse(File.read(Rails.root.join('db/seeds/tiles.json')), symbolize_names: true)
 tiles.each do |attrs|
-  StaticTile.find_or_create_by!(attrs)
+  StaticTile.find_or_create_by!(id: attrs[:id]) do |tile|
+    tile.assign_attributes(attrs)
+  end
 end
 
 map_hexes = JSON.parse(File.read(Rails.root.join('db/seeds/map_hexes.json')), symbolize_names: true)
 map_hexes.each do |attrs|
-  StaticMapHex.find_or_create_by!(attrs)
+  StaticMapHex.find_or_create_by!(id: attrs[:id]) do |hex|
+    hex.assign_attributes(attrs)
+  end
 end
 
 tracks = JSON.parse(File.read(Rails.root.join('db/seeds/tracks.json')), symbolize_names: true)
